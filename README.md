@@ -28,6 +28,21 @@ This repository contains Python scripts for processing NetCDF files and extracti
     ```bash
     python LAMaxTempProcessor.py
     ```
+3. **LARegionsMaxTempProcessor.py**
+
+    This script does same thing as LAMaxTempProcessor.py, but it computes the daily max temperature for regions within the state of Louisiana.
+
+    **Dependencies:**
+    - geopandas
+    - xarray
+    - numpy
+    - pandas
+    - shapely
+
+    **Usage:**
+    ```bash
+    python LAMaxTempProcessor.py
+    ```
 
 ## Environment Setup
 
